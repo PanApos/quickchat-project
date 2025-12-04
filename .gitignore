@@ -7,3 +7,6 @@ Quick Chat Project.txt
 # Γενικά αρχεία για αγνόηση
 .DS_Store
 .vscode/
+
+#Αγνοεί το .gitgnore
+gitgnore.txt
