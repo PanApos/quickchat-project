@@ -1,6 +1,0 @@
-Quick Chat Project.txt
-
-image/
-
-.DS_Store
-.vscode/
