@@ -23,3 +23,8 @@ Careers
 Επίσης θα χρησιμοποιήσω JavaScript για να δουλέψει και το hamburger Menu στις μικρότερες οθόνες 
 
 STay Tuned 
+
+Update 1.0 13/12/2025 
+
+Δημιουργία contact page 
+Update CSS για responsive και για την εμφάνιση του contact hthml
