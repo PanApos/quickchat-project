@@ -27,4 +27,4 @@ STay Tuned
 Update 1.0 13/12/2025 
 
 Δημιουργία contact page 
-Update CSS για responsive και για την εμφάνιση του contact hthml
+Update CSS για responsive και για την εμφάνιση του contact html
