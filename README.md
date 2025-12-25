@@ -28,3 +28,16 @@ Update 1.0 13/12/2025
 
 Δημιουργία contact page 
 Update CSS για responsive και για την εμφάνιση του contact html
+
+Updtae 1.1 25/12/205
+
+Δημιουργία info.html 
+Δημιουργία Faq policy σελιδών 
+Δημιούργια Javascript file και σύνδεση με info html για να μην έχουμε ξεχωριστά Html για καθε page, σύνδεση hamburger menu για κινητά 
+Δημιουργια Css για μικρότερο και πιο μαζεμένο κώδικα και responsive για (desktop, tablet, Mobile)
+
+
+Το  landig page project εχει ολοκληρωθεί πλέον ευελπιστώ να σας αρέσει. 
+Εάν χρειάζεται κάποια αλλαγή ή υπάρχει κάποιο λάθος μπορείτε να μου δώσετα feedback ώστε να γίνεω καλύτερος.
+
+Ευχαριστώ 
