@@ -4,98 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuickChat</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
  </head>
 <body>
 
-    <header>
-        <a href="index.html" class="logo-link">
-            <div class="logo">
-                <img src="images/logo 1.svg" alt="QuickChat Logo">
-                <h3>QuickChat</h3>
-            </div>
-        </a>
-            <nav>
+    <header class="main-header">
+        <div class="header-container"> 
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <img src="images/logo 1.svg" alt="QuickChat Logo">
+                    <h3>QuickChat</h3>
+                </div>
+            </a>
+            <nav class="nav-menu">
                 <ul>
-                    <li><a href="company.html"> Η Εταιρεία </a></li>
-                    <li><a href="#feautures"> Χαρακτηριστικά </a></li>
+                    <li><a href="info.html?page=company"> Η Εταιρεία </a></li>
                     <li><a href="contact.html"> Επικοινωνία </a></li>
+                    <a href="#login" class="nav-button"> Σύνδεση </a>
                 </ul>
-                <a href="#login" class="nav-button"> Σύνδεση </a>
+                
+
+                <button class="hamburger-menu-btn" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
             </nav>
-
-        <button class="hamburger-menu-btn" aria-label="Toggle navigation">&#9776; </button>
-
+        </div>
     </header>
 </head>
 <body>
     <main>
+        <div class="content-box">
+            <section class="contact-page-content">
 
-        <section class="contact-page-content">
-
-            <h1 class="page-tittle">Επικοινωνήστε μαζί μας </h1>
-                <p> Είμαστε εδώ για να απαντήσουμε σε κάθε σου ερώτηση. Επίλεξε τον τρόπο που σε εξυπηρετεί καλύτερα.</p>
+                <h1 class="page-title">Επικοινωνήστε μαζί μας </h1>
+                    <p> Είμαστε εδώ για να απαντήσουμε σε κάθε σου ερώτηση. Επίλεξε τον τρόπο που σε εξυπηρετεί καλύτερα.</p>
 
                 <div class="contact-box">
 
-
-                    <div class="contact-form-container">
-                        <form class="contact-form">
+               <div class="contact-form-container">
+                            <form class="contact-form">
                             
-                            <label for="name"> Ονομα & Επώνυμο </label>
-                            <input type="text" id="name" placeholder="Πλήρες όνομα">
+                                <label for="name"> Ονομα & Επώνυμο </label>
+                                <input type="text" id="name" placeholder="Πλήρες όνομα">
 
-                            <label for="email"> Email </label>
-                            <input type="email" id="email" placeholder="example@quickchat.com ">
+                                <label for="email"> Email </label>
+                                <input type="email" id="email" placeholder="example@quickchat.gr ">
 
-                            <label for="subject"> Θέμα </label>
-                            <input type="text" id="subject" placeholder="Θέμα">
+                                <label for="subject"> Θέμα </label>
+                                <input type="text" id="subject" placeholder="Θέμα">
 
-                            <label for="message"> Μήνυμα </label>
-                            <Textarea id="message" name="message" rows="5" placeholder="Πλητρολόγησε το μήνυμα σου ... "    ></textarea>
+                                <label for="message"> Μήνυμα </label>
+                                <Textarea id="message" name="message" rows="5" placeholder="Πλητρολόγησε το μήνυμα σου ... "    ></textarea>
 
-                            <button class="btn send-message-btn"  type="submit"> Αποστολή μήνυματος </button>
+                                <button class="send-message-btn"  type="submit"> Αποστολή μήνυματος </button>
 
-                            <div class="form-footer">
-                                <div class="logo-box">
-                                    <img src="images/logo 1.svg" alt="QuickChat Logo">
-                                </div>
+                                <div class="form-footer">
+                                    <div class="logo-box">
+                                        <img src="images/logo 1.svg" alt="QuickChat Logo">
+                                    </div>
                                         <p>Το QuickChat είναι η νέα εφαρμογή που κάνει την επικοινωνία παιχνίδι, με ταχύτητα, ασφάλεια και οργάνωση.</p>
-                            </div>
-                        </form>
-                    </div>
-                            <div class="other-contact-way-box">
-                                <div class="other-contact-details">
-                                    <h2>Άλλοι Τρόποι Επικοινωνίας</h2>
-
-                                <div class="contact-info-list">
-                                    <p><span>📧 </span> Email: support@quickchat.gr </p>
-                                    <p><span>📞 </span> Τηλέφωνο: +30 210 XXX XXXX </p> 
-                                    <p><span>📍 </span> Διέυθυνση: Λεωφόρος Κεντρική 12, 105 50, Αθήνα</p> 
                                 </div>
-                            </div>
-                 
-                            <div class="map-container">
-                                <h3>Που θα μας βρείς</h3>
-                                <img src="images/map.svg" alt="Χάρτης τοποθεσίας">
+                            </form>
+                    </div>
+                    <div class="other-contact-way-box">
+                        <div class="other-contact-details">
+                            <h2>Άλλοι Τρόποι Επικοινωνίας</h2>
+
+                            <div class="contact-info-list">
+                                <p><img src="images/Email.svg" alt="Email icon"> Email: support@quickchat.gr </p>
+                                <p><img src="images/Telephone.svg" alt="Telephone icon"> Τηλέφωνο: +30 210 XXX XXXX </p> 
+                                <p><img src="images/Place Marker.svg" alt="Place marker icon"> Διέυθυνση: Λεωφόρος Κεντρική 12, 105 50, Αθήνα</p> 
                             </div>
                         </div>
+                 
+                        <div class="map-container">
+                           <h3>Που θα μας βρείς</h3>
+                           <img src="images/map.svg" alt="Χάρτης τοποθεσίας">
+                        </div>
+                    </div>
                 </div>
             </section>
-            
-        
-        
-        
+        </div>
     </main>
-
-
-
-
-
-
-
-
-
     <footer>
         <div class="footer-container">
             <div class="footer-col footer-info">
@@ -104,27 +96,26 @@
                 </div>
                 <p>Το QuickChat είναι η νέα εφαρμογή που κάνει την επικοινωνία παιχνίδι, με ταχύτητα, ασφάλεια και οργάνωση.</p>
                 <div class="social-icons">
-                    <a href="#" class="social-icon"><span> G+ </span></a>
-                    <a href="#" class="social-icon"><span> F </span></a>
-                    <a href="#" class="social-icon"><span> I </span></a>
-                    <a href="#" class="social-icon"><span> X </span></a>
-                    <a href="#" class="social-icon"><span> In </span></a>
+                    <a href="#" class="social-icon"><img src="images/Google Plus.svg" alt="Google Plus icon"></a>
+                    <a href="#" class="social-icon"><img src="images/Facebook.svg" alt="Facebook icon"></a>
+                    <a href="#" class="social-icon"><img src="images/Instagram.svg" alt="Intstagram icon"></a>
+                    <a href="#" class="social-icon"><img src="images/X.svg" alt="X (Twitter)icon"></a>
+                    <a href="#" class="social-icon"><img src="images/LinkedIn.svg" alt="LinkedIn icon"></a>
                 </div>
             </div>
 
             <div class="footer-col footer-links">
                 <div class="link-group">
-                    <h4> Company (Εταιρεια) </h4>
+                    <h4> Company (Εταιρεία) </h4>
                     <ul>
-                        <li><a href="company.html"> About Us (Η Εταιρεία) </a></li>
-                        <li><a href="#"> Careers (Καριέρα) </a></li>
+                        <li><a href="info.html?page=company"> About Us (Η Εταιρεία) </a></li>
                     </ul>
                 </div>
 
                 <div class="link-group">
-                    <h4> Support (Βοηθεια) </h4>
+                    <h4> Support (Βοήθεια) </h4>
                     <ul>
-                        <li><a href="#"> FAQ (Συχνές Ερωτήσεις) </a></li>
+                        <li><a href="info.html?page=faq"> FAQ (Συχνές Ερωτήσεις) </a></li>
                         <li><a href="contact.html"> Contact Us (Επικοινωνία) </a></li>
                     </ul>
                 </div>
@@ -132,8 +123,8 @@
                 <div class="link-group">
                     <h4> Policy(Πολιτικες) </h4>
                     <ul>
-                        <li><a href="#"> Terms of Service (Όροι Χρήσης) </a></li>
-                        <li><a href="#"> Privacy Policy (Πολιτική Απορρήτου) </a></li>
+                        <li><a href="info.html?page=policy"> Terms of Service (Όροι Χρήσης) </a></li>
+                        <li><a href="info.html?page=policy"> Privacy Policy (Πολιτική Απορρήτου) </a></li>
                     </ul>
                 </div>
             </div>
@@ -142,5 +133,6 @@
     <div class="copyrights">        
             <p> &copy; 2025 QuickChat. All Rights Reserved. | Ελλάδα </p>       
     </div> 
+    <script src="script.js"></script>
 </body>
 </html>

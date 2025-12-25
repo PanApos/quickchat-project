@@ -4,42 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuickChat</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
  </head>
 <body>
 
-    <header>
-        <a href="index.html" class="logo-link">
-            <div class="logo">
-                <img src="images/logo 1.svg" alt="QuickChat Logo">
-                <h3>QuickChat</h3>
-            </div>
-        </a>
-            <nav>
+    <header class="main-header">
+        <div class="header-container"> 
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <img src="images/logo 1.svg" alt="QuickChat Logo">
+                    <h3>QuickChat</h3>
+                </div>
+            </a>
+            <nav class="nav-menu">   
                 <ul>
-                    <li><a href="company.html"> Η Εταιρεία </a></li>
-                    <li><a href="#feautures"> Χαρακτηριστικά </a></li>
+                    <li><a href="info.html?page=company"> Η Εταιρεία </a></li>
                     <li><a href="contact.html"> Επικοινωνία </a></li>
+                    <a href="#login" class="nav-button"> Σύνδεση </a>
                 </ul>
-                <a href="#login" class="nav-button"> Σύνδεση </a>
+                
+
+                <button class="hamburger-menu-btn" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
             </nav>
-
-        <button class="hamburger-menu-btn" aria-label="Toggle navigation">&#9776; </button>
-
+        </div>
     </header>
     <main>
 
-        <section class="hero">
-            <div class="hero-text">
-                <h1>QuickChat</h1>
-                <p class="tagline">Μια εφαρμογή που κάνει την επικοινωνία παιχνίδι! </p>
-           </div>
+        <div class="content-box"> 
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>QuickChat</h1>
+                    <p class="tagline">Μια εφαρμογή που κάνει την επικοινωνία παιχνίδι! </p>
+                </div>
 
-            <div class="hero-image">
-                <img src="images/chat pc.svg" alt="QuickChat Application">
-            </div>              
-        </section>
-
+                <div class="hero-image">
+                    <img src="images/chat pc.svg" alt="QuickChat Application">
+                </div>              
+            </section>
+        </div>
 
         <section class="features">
             <div class="features-container">
@@ -63,31 +69,32 @@
             </div>   
         </section>
 
+        <div class="content-box">
+            <section class="testimonials">
+                <div class="testimonials-grid">
 
-        <section class="testimonials">
-            <div class="testimonials-grid">
+                    <div class="testimonial-block">
+                        <img src="images/quote 1.svg" alt="Μαρτυρία πελάτη" class="quote-image">
+                    </div>
 
-                <div class="testimonial-block">
-                    <img src="images/quote 1.svg" alt="Μαρτυρία πελάτη" class="quote-image">
+                    <div class="testimonial-block">
+                        <img src="images/quote 2.svg" alt="Μαρτυρία πελάτη" class="quote-image">
+                    </div>
+                    <div class="testimonial-block">
+                        <img src="images/quote 3.svg" alt="Μαρτυρία πελάτη" class="quote-image">
+                    </div>
+                    <div class="testimonial-block">
+                        <img src="images/quote 4.svg" alt="Μαρτυρία πελάτη" class="quote-image">
+                    </div>
+                    <div class="testimonial-block">
+                        <img src="images/quote 5.svg" alt="Μαρτυρία πελάτη" class="quote-image">
+                    </div>
+                    <div class="testimonial-block">
+                        <img src="images/quote 6.svg" alt="Μαρτυρία πελάτη" class="quote-image">  
+                    </div>
                 </div>
-
-                <div class="testimonial-block">
-                    <img src="images/quote 2.svg" alt="Μαρτυρία πελάτη" class="quote-image">
-                </div>
-                <div class="testimonial-block">
-                    <img src="images/quote 3.svg" alt="Μαρτυρία πελάτη" class="quote-image">
-                </div>
-                <div class="testimonial-block">
-                    <img src="images/quote 4.svg" alt="Μαρτυρία πελάτη" class="quote-image">
-                </div>
-                <div class="testimonial-block">
-                    <img src="images/quote 5.svg" alt="Μαρτυρία πελάτη" class="quote-image">
-                </div>
-                <div class="testimonial-block">
-                    <img src="images/quote 6.svg" alt="Μαρτυρία πελάτη" class="quote-image">  
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
 
         <section class="cta">
@@ -108,27 +115,26 @@
                 </div>
                 <p>Το QuickChat είναι η νέα εφαρμογή που κάνει την επικοινωνία παιχνίδι, με ταχύτητα, ασφάλεια και οργάνωση.</p>
                 <div class="social-icons">
-                    <a href="#" class="social-icon"><span> G+ </span></a>
-                    <a href="#" class="social-icon"><span> F </span></a>
-                    <a href="#" class="social-icon"><span> I </span></a>
-                    <a href="#" class="social-icon"><span> X </span></a>
-                    <a href="#" class="social-icon"><span> In </span></a>
+                    <a href="#" class="social-icon"><img src="images/Google Plus.svg" alt="Google Plus icon"></a>
+                    <a href="#" class="social-icon"><img src="images/Facebook.svg" alt="Facebook icon"></a>
+                    <a href="#" class="social-icon"><img src="images/Instagram.svg" alt="Intstagram icon"></a>
+                    <a href="#" class="social-icon"><img src="images/X.svg" alt="X (Twitter)icon"></a>
+                    <a href="#" class="social-icon"><img src="images/LinkedIn.svg" alt="LinkedIn icon"></a>
                 </div>
             </div>
 
             <div class="footer-col footer-links">
                 <div class="link-group">
-                    <h4> Company (Εταιρεια) </h4>
+                    <h4> Company (Εταιρεία) </h4>
                     <ul>
-                        <li><a href="company.html"> About Us (Η Εταιρεία) </a></li>
-                        <li><a href="#"> Careers (Καριέρα) </a></li>
+                        <li><a href="info.html?page=company"> About Us (Η Εταιρεία) </a></li>
                     </ul>
                 </div>
 
                 <div class="link-group">
-                    <h4> Support (Βοηθεια) </h4>
+                    <h4> Support (Βοήθεια) </h4>
                     <ul>
-                        <li><a href="#"> FAQ (Συχνές Ερωτήσεις) </a></li>
+                        <li><a href="info.html?page=faq"> FAQ (Συχνές Ερωτήσεις) </a></li>
                         <li><a href="contact.html"> Contact Us (Επικοινωνία) </a></li>
                     </ul>
                 </div>
@@ -136,8 +142,8 @@
                 <div class="link-group">
                     <h4> Policy(Πολιτικες) </h4>
                     <ul>
-                        <li><a href="#"> Terms of Service (Όροι Χρήσης) </a></li>
-                        <li><a href="#"> Privacy Policy (Πολιτική Απορρήτου) </a></li>
+                        <li><a href="info.html?page=policy"> Terms of Service (Όροι Χρήσης) </a></li>
+                        <li><a href="info.html?page=policy"> Privacy Policy (Πολιτική Απορρήτου) </a></li>
                     </ul>
                 </div>
             </div>
@@ -146,5 +152,6 @@
     <div class="copyrights">        
             <p> &copy; 2025 QuickChat. All Rights Reserved. | Ελλάδα </p>       
     </div> 
+    <script src="script.js"></script>
 </body>
 </html>
