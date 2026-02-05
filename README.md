@@ -1,7 +1,6 @@
 QuickChat  Project 
 
-Έιναι ένα project το οποίο το design του είναι φτιαγμένο Με figma. Το συγκεκριμένο project είναι ένα Landing Page για το project 2 το οποίο θα είναι το quickchat σαν browser εφαρμογή.
-Σαν φοιτητής web design & developmnet στόχος είναι να φτιάξω αυτά τα project ώστε να συνδέσω στο portofolio Μου (Project 3) 
+Έιναι ένα project το οποίο το design του είναι φτιαγμένο Με figma. Το συγκεκριμένο project είναι ένα site  σχεδιασμένο σε figma και η υλοποίηση έγινε σε VsCode και η δημιουργία του ήταν για εξάσκηση στις γλώσσες HTML, CSS, JavaScript.
 
 
 Χαρακτηριστικά 
@@ -36,7 +35,6 @@ Updtae 1.1 25/12/205
 Δημιουργια Css για μικρότερο και πιο μαζεμένο κώδικα και responsive για (desktop, tablet, Mobile)
 
 
-Το  landing page project εχει ολοκληρωθεί πλέον ευελπιστώ να σας αρέσει. 
 Εάν χρειάζεται κάποια αλλαγή ή υπάρχει κάποιο λάθος μπορείτε να μου δώσετα feedback ώστε να γίνεω καλύτερος.
 
 Ευχαριστώ 
