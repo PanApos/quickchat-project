@@ -15,18 +15,15 @@ A modern static Website for a browser-based chat application, designed with UI/U
 ## Project Features & Workflow
 
 ### 1. Design Phase (UI/UX)
-
 - **Figma Prototyping:** Design of the entire interface, including buttons and interactive elements.
 - **Responsive Architecture:** Crafted distinct layouts for desktop, tablet, and mobile devices.
 
 ### 2. Development & Implementation
-
 - **Core Technologies:** Leveraged HTML5 and CSS3 for structure and styling, maintaining high fidelity to the Figma design (Pixel Perfect).
 - **Interactive Elements:** Implemented JavaScript to power the Hamburger Menu functionality for smaller screens and dynamic content management.
 - **Modular Code:** Developed a shared JavaScript file to bridge multiple pages (Info, FAQ, Policies) without code redundancy.
 
 ### 3. Version History (Updates)
-
 - **v1.1:** Added info.html, FAQ/Policy pages, and full CSS optimization for responsive performance across all resolutions.
 - **v1.0:** Initial launch of the Contact Page and core Responsive layout.
 
@@ -54,25 +51,22 @@ A modern static Website for a browser-based chat application, designed with UI/U
 ## Project Features & Workflow
 
 ### 1. Design Phase (UI/UX)
-
 - **Figma Prototyping:** Σχεδιασμός ολόκληρου του interface, των κουμπιών και των διαδραστικών στοιχείων.
 - **Responsive Architecture:** Σχεδιασμός διαφορετικών layouts για desktop, tablet και mobile συσκευές.
 
 ### 2. Development & Implementation
-
 - **Core Technologies:** Χρήση **HTML5** και **CSS3** για τη δομή και το styling, ακολουθώντας πιστά το Figma design (Pixel Perfect).
 - **Interactive Elements:** Υλοποίηση **JavaScript** για τη λειτουργικότητα του Hamburger Menu στις μικρότερες οθόνες και τη δυναμική διαχείριση περιεχομένου.
 - **Modular Code:** Δημιουργία κοινού JavaScript αρχείου για τη σύνδεση πολλαπλών σελίδων (Info, FAQ, Policies) χωρίς επαναλαμβανόμενο κώδικα.
 
 ### 3. Version History (Updates)
-
 - **v1.1:** Προσθήκη info.html, σελίδων FAQ/Policy και πλήρης βελτιστοποίηση του CSS για responsive απόδοση σε όλες τις αναλύσεις.
 - **v1.0:** Αρχική δημιουργία Contact Page και βασικού Responsive layout.
 </details>
 
 ## Project Preview
 
-<img src="./screenshots/home page.png" width="400">
+<img src="./Screenshots/Full page.png" width="400">
 
 **More Screenshots**
 
@@ -80,13 +74,16 @@ A modern static Website for a browser-based chat application, designed with UI/U
   <summary><b>Click to view the full gallery / Κάντε κλικ για την πλήρη συλλογή </b></summary>
   
   <p align="center">
-    <img src="./screenshots/Company.png" width="700"><br>
-    <img src="./screenshots/Contact.png" width="700"><br>
-    <img src="./screenshots/Faq.png" width="700"><br>
-    <img src="./screenshots/figma.png" width="700"><br>
-    <img src="./screenshots/home page.png" width="700"><br>
-    <img src="./screenshots/Terms.png" width="700"><br>
-    
+    <img src="./Screenshots/Contact Form.jpg" width="700"><br>
+    <img src="./Screenshots/Dns .png" width="700"><br>
+    <img src="./Screenshots/Figma Compoments.png" width="700"><br>
+    <img src="./Screenshots/Full page.png" width="700"><br>
+    <img src="./Screenshots/Hamburger menu.jpg" width="700"><br>
+    <img src="./Screenshots/Hero Section.jpg" width="700"><br>
+    <img src="./Screenshots/Project.jpg" width="700"><br>
+    <img src="./Screenshots/Responsive.jpg" width="700"><br>
+    <img src="./Screenshots/Test email.png" width="700"><br>
+
   </p>
 </details>
 
@@ -104,3 +101,4 @@ A modern static Website for a browser-based chat application, designed with UI/U
 - **Live Demo:** [QuickChat Live](https://panapos.github.io/quickchat-project/)
 - **LinkedIn:** [Panagiotis Apostolelis](https://www.linkedin.com/in/panagiotis-apostolelis/)
 - **Figma:** [Παναγιώτης Αποστολέλης](https://www.figma.com/@PanApos)
+

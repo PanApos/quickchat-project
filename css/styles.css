@@ -89,7 +89,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--sp-xs) var(--sp-sm);
+    padding: var(--sp-xs) var(--sp-md);
  }
 
  .logo-link {
@@ -130,22 +130,10 @@
     transition: color 0.3s ease;
  }
 
- .nav-menu a:not(.nav-button):hover {
+ .nav-menu a:hover {
     color: var(--primary-color);
  }
 
- .nav-button {
-    background-color: var(--primary-color);
-    color: var(--white-background) !important;
-    padding: var(--sp-xs) var(--sp-sm);
-    border-radius: var(--box-radius);
-    transition: background-color 0.3s ease, transform 0.2s ease;
- }
-
- .nav-button:hover {
-    background-color: var(--button-hover);
-    transform:translateY(-1px);
- }
 
  .hamburger-menu-btn {
     display: none;
